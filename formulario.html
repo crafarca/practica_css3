@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form method="GET">
+<label for="name">Nombre</label>
+<input id="name" placeholder="introducir nombre"  name= nombre_1 autofocus required>
+<button>enviar formulaario</button>
+</form>
+
+<br>
+<form method="GET">
+    <label>
+        Nombre
+        <input placeholder="introducir nombre 2" name= nombre_2 required>
+    </label>
+    <button>enviar</button>
+</form>
+<br>
+
+<form >
+    <input>
+    <input type="submit" value="enviar input">
+    <button>enviar button</button>
+</form>
+
+<br>
+
+<form>
+    <div>
+    <input type="date">
+</div>
+<div>
+    <input type="time">
+</div>
+<div>
+    <input type="month">
+</div>
+<div>
+    <input type="week">
+</div>
+</form>
+
+<br>
+
+<form >
+    <label>
+        password
+        <input type="password" autofocus required>
+    </label>
+    <input type="color">
+    <input type="number" min="5" max="20" >
+    <input type="range" step="5" min="0" max="20">
+    <input type="reset">
+    <input type="text" minlength="3" maxlength="6" required>
+    <button>enviar</button>
+
+</form>
+
+<br>
+<h1>seleccionar</h1>
+<form >
+    <h2>genero</h2>
+    <label >masculino
+        <input type="radio" name="genero" value ="masculino" checked>
+    </label>
+    <label >femenino
+        <input type="radio" name="genero" value="femenino">
+    </label>
+
+</form>
+<br>
+
+<form >
+    <label >
+        <input type="checkbox" name="languege" value="html">HTML 
+    </label>
+    <label >
+        <input type="checkbox" name="languege" value="css">CSS 
+    </label>
+    <label > 
+        <input type="checkbox" name="language" value="typescript">TYPESCRIPT
+    </label>
+
+</form>
+<br>
+
+<form >
+    <select name="lenguage" id="" >
+        <option value="lista">--Lista--</option>
+        <optgroup label="front-end">
+            <option value="HTML">HTML</option>
+            <option value="css">CSS</option>
+            <option value="typescript">TYPESCRIPt</option>
+        </optgroup>
+        <optgroup label="Back-end">
+            <option value="php">PHP</option>
+            <option value="JAVA">JAVA</option>
+            <option value="typescript">TYPESCRIPt</option>
+        </optgroup>
+    </select>
+
+</form>
+<br>
+
+<form >
+    <input type="list" list="back-end">
+    <datalist id= "back-end">
+        <option value="HTML"></option>
+        <option value="css"></option>
+        <option value="typescript"></option>
+        <option value="php"></option>
+        <option value="JAVA"></option>
+        <option value="typescri"></option>
+
+    </datalist>
+</form>
+<br>
+
+<form >
+    <fieldset>
+        <legend>datos personales</legend>
+        <label for="nombre">nombre</label>
+        <input type="text">
+        <label for="apellido">apellido</label>
+        <input type="text">
+        <input type="file">
+    </fieldset>
+
+    <br>
+
+    <label for="fuel">combustible</label>
+    <meter id="fuel" min="0" max="100" value="60" low="30" high="65"></meter><br>
+
+    <label for="task">avance del proyecto</label>
+    <progress id="task" max="100" value="68"></progress>
+</form>
+
+
+
+
+</body>
+</html>
